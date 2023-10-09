@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = pizzaApp
+build_property.RootNamespace = pizzaApp
+build_property.ProjectDir = E:\asp.net\pizzaApp\pizzaApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\asp.net\pizzaApp\pizzaApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/checkout/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/checkout/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hlY2tvdXRcVGhhbmtZb3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/forms/customPizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZm9ybXNcY3VzdG9tUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Pizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/pizzaApp/pizzaApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hsl2rdnjhf

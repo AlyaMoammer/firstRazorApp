@@ -1,0 +1,48 @@
+﻿@page
+@model pizzaApp.Pages.PizzaModel
+@{
+}
+
+<div class="text-center">
+      <div class="mainText">
+        <h1 class="text-capitalize display-4 text-black"> Our great selection of Pizzas </h1>
+        <h4>Choose one or try our Pizza Builder! Then Order and Done</h4>
+        <h4>No need to give any of your detials!</h4>
+        <h4>We already Know everything!</h4>
+        <p class="smallText"><i>Only one pizza per order</i></p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 mt-5">
+                <div class="w-100 row makeYourOwnDiv">
+                    <div class="col-4">
+                        <img src="~/images/pizzas/pizza3.jpg" class="w-100 mt-2 mb-2" />
+                    </div>
+                <div class="col-8 align-items-center">
+                    <div class="align-middle makeYourOwnText">
+                         <h3 style="text-align:left;">Create your own Pizza</h3>
+                         <p style="text-align:left;">Make your own Pizza with our PizzaMaker!</p>
+                            <a class="btn btn-primary" style="float:left;" asp-area="" asp-page="/forms/customPizza">Try Now!</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+                @foreach(var pizza in Model.fakePizzaDB)
+                {
+                    var imagePath = "~/images/pizzas/" + (pizza.ImagTitle + ".jpg");
+                    <div class="col-4 mb-5">
+
+
+                    <a class="pizzaImg" asp-area="" asp-page="/checkout/Checkout"
+                           asp-route-ImageTitle="@pizza.ImagTitle" asp-route-PizzaPrice="@pizza.FinalPrice"
+                       asp-route-PizzaName="@pizza.PizzaName"><img src="@imagePath" class="w-100" asp-append-version="true" /></a>
+                       <p><i>@pizza.PizzaName</i></p>
+                           <br/>
+                    </div>
+                }
+            
+        </div>
+     </div>
+</div>
