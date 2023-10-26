@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine AS build-env
 
-WORKDIR /pizzaapp
+WORKDIR /pizzaApp
 
 COPY ["pizzaApp.csproj", "."]
 
@@ -13,10 +13,10 @@ RUN dotnet build "pizzaApp.csproj" -c Release -o out
 RUN dotnet publish "pizzaApp.csproj" -c Release -o out
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine
-WORKDIR /pizzaapp
-COPY --from=build-env /pizzaapp/out .
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine
+WORKDIR /pizzaApp
+COPY --from=build-env /pizzaApp/out .
 
 EXPOSE 80
 
-ENTRYPOINT ["pizza", "pizzaapp.dll"]
+ENTRYPOINT ["dotnet", "pizzaApp.dll"]
